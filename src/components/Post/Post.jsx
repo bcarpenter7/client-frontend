@@ -45,7 +45,7 @@ export default function Post({ posts, currentArticle, setCurrentArticle, handleD
        </>
     )
         } else {
-            const article = posts.find(p => p._id == currentArticle)
+            const article = posts.find(p => p._id === currentArticle)
             return (
             <>      
                <PostDetail article={article} handleEdit={handleEdit} setPage={setPage} handleDelete={handleDelete} setCurrentArticle={setCurrentArticle} />

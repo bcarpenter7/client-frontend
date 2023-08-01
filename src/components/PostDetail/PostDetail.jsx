@@ -4,7 +4,7 @@ import EditPage from '../../EditPage/EditPage'
 import './PostDetail.css'
 
 
-export default function PostDetail({article, handleEdit, setPage, deletePost, handleDelete, setCurrentArticle}){
+export default function PostDetail({article, handleEdit, setPage, handleDelete, setCurrentArticle}){
     console.log(article.content)
     
     
